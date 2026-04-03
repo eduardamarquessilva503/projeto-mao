@@ -2,11 +2,11 @@
 
 Um detector de gestos em Linguagem Brasileira de Sinais (Libras) em tempo real usando visão computacional e machine learning.
 
-## 🎯 Objetivo
+## Objetivo
 
 Reconhecer e classificar gestos da Libras através de uma câmera webcam em tempo real, utilizando detecção de landmarks de mão com MediaPipe e um modelo de machine learning (Random Forest).
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - **Detecção em Tempo Real**: Captura e processa vídeo da câmera em tempo real
 - **Reconhecimento de Gestos**: Classifica gestos da Libras usando modelo treinado
@@ -14,7 +14,7 @@ Reconhecer e classificar gestos da Libras através de uma câmera webcam em temp
 - **Coleta de Dados**: Sistema para coletar e armazenar exemplos de gestos
 - **Treinamento Automatizado**: Pipeline de treinamento com validação
 
-## 📋 Requisitos
+## Requisitos
 
 - Python 3.7+
 - OpenCV (`cv2`)
@@ -22,7 +22,7 @@ Reconhecer e classificar gestos da Libras através de uma câmera webcam em temp
 - scikit-learn
 - pandas
 
-## 📦 Instalação
+##  Instalação
 
 1. Clone o repositório:
 ```bash
@@ -35,7 +35,7 @@ cd libras-detector
 pip install opencv-python mediapipe scikit-learn pandas
 ```
 
-## 🎮 Como Usar
+## Como Usar
 
 ### 1. Coletar Dados de Treinamento
 
@@ -111,13 +111,13 @@ Funções auxiliares para:
 - Normalização de landmarks
 - Processamento de dados
 
-## 📊 Modelo
+## Modelo
 
 - **Algoritmo**: Random Forest Classifier
 - **Features**: Landmarks normalizados da mão (42 valores)
 - **Classes**: Gestos/Letras da Libras
 
-## 🤝 Contribuindo
+## Contribuindo
 
 Contribuições são bem-vindas! Sinta-se livre para:
 - Melhorar a acurácia do modelo
@@ -125,11 +125,10 @@ Contribuições são bem-vindas! Sinta-se livre para:
 - Otimizar o desempenho
 - Corrigir bugs
 
-## 📝 Licença
+##  Licença
 
 Este projeto está sob a licença MIT.
 
-## 👨‍💻 Autor
 
 Criado com ❤️ para inclusão através da tecnologia.
 
